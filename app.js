@@ -1,6 +1,6 @@
 /* DebbieDog – egyoldalas bemutató webshop (hash-útvonalak, kosár a böngészőben) */
 'use strict';
-const VERSION = '1';
+const VERSION = '2';
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const app = $('#app');
